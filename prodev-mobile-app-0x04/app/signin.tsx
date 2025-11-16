@@ -3,7 +3,7 @@ import { Text, TextInput, View, TouchableOpacity, Image } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
-import { styles } from "@/styles/_joinstyle"; // Make sure this path is correct
+import { styles } from "@/styles/_joinstyle"; // Mak is correct
 
 export default function Sign() {
   const router = useRouter();
@@ -13,7 +13,7 @@ export default function Sign() {
       <SafeAreaView style={styles.container}>
         <View style={styles.iconsection}>
           <Ionicons name="arrow-back" size={25} onPress={() => router.back()} />
-          <Image source={require("../assets/images/Logo.png")} />
+          <Image source={require("../assets/images/logo.png")} />
         </View>
 
         <Text style={styles.titleText}>Sign in to your Account</Text>
